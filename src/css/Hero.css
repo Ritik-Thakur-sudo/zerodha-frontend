@@ -1,0 +1,13 @@
+.signUp {
+    width: 19%;
+    margin: 0 auto;
+    background-color:#397ED1;
+    color: #fff;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.signUp:hover {
+    background-color: #222222;
+    color: #fff;
+}

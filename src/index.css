@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2, h3 {
+  color: #424242;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  color: #666666;
+}
+
+/* Navbar*/
+
+.nav-item {
+  margin-left: 35px;
+}
+
+a {
+  color: #424242;
+}
+
+a:hover {
+  color: #397ED1;
+}
