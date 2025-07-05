@@ -6,9 +6,14 @@ function Team() {
       </div>
       <div className="row d-flex justify-content-center align-items-center">
         <div className="col-4 ms-5">
-          <img src="media/images/nithinKamath.jpg" style={{width: "70%", height: "70%", borderRadius: "50%"}}/>
-          <h3 style={{paddingLeft: "80px", paddingTop: "10px"}}>Nithin Kamath</h3>
-          <p style={{paddingLeft: "90px"}}>Founder, CEO</p>
+          <img
+            src="media/images/nithinKamath.jpg"
+            style={{ width: "70%", height: "70%", borderRadius: "50%" }}
+          />
+          <h3 style={{ paddingLeft: "80px", paddingTop: "10px" }}>
+            Nithin Kamath
+          </h3>
+          <p style={{ paddingLeft: "90px" }}>Founder, CEO</p>
         </div>
         <div className="col-5 me-5 mb-5">
           <p>
@@ -39,50 +44,74 @@ function Team() {
       </div>
       <div className="row p-5 ms-5 mt-5">
         <div className="col-4">
-            <img src="media/images/Nikhil.jpg" className="p-2" style={{width: "80%", height: "80%", borderRadius: "50%"}}/>
-            <h3 className="ms-5 ps-4 pt-2 fs-4">Nikhil Kamath</h3>
-            <p className="ms-5 ps-4">Co-founder & CFO</p>
+          <img
+            src="media/images/Nikhil.jpg"
+            className="p-2"
+            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+          />
+          <h3 className="ms-5 ps-4 pt-2 fs-4">Nikhil Kamath</h3>
+          <p className="ms-5 ps-4">Co-founder & CFO</p>
         </div>
         <div className="col-4">
-            <img src="media/images/Kailash.jpg" className="p-2" style={{width: "80%", height: "80%", borderRadius: "50%"}}/>
-            <h3 className="ms-5 ps-3 pt-2 fs-4">Dr. Kailash Nadh</h3>
-            <p className="text-center me-4">CTO</p>
+          <img
+            src="media/images/Kailash.jpg"
+            className="p-2"
+            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+          />
+          <h3 className="ms-5 ps-3 pt-2 fs-4">Dr. Kailash Nadh</h3>
+          <p className="text-center me-4">CTO</p>
         </div>
         <div className="col-4">
-            <img src="media/images/Venu.jpg" className="p-2" style={{width: "80%", height: "80%", borderRadius: "50%"}}/>
-            <h3 className="ms-5 ps-3 pt-2 fs-4">Venu Madhav</h3>
-            <p className="text-center me-5">COO</p>
+          <img
+            src="media/images/Venu.jpg"
+            className="p-2"
+            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+          />
+          <h3 className="ms-5 ps-3 pt-2 fs-4">Venu Madhav</h3>
+          <p className="text-center me-5">COO</p>
         </div>
       </div>
       <div className="row p-5 ms-5">
         <div className="col-4">
-            <img src="media/images/Hanan.jpg" className="p-2" style={{width: "80%", height: "80%", borderRadius: "50%"}}/>
-            <h3 className="ms-5 ps-4 pt-2 fs-4">Hanan Delvi</h3>
-            <p className="text-center me-5 pe-4">CCO</p>
+          <img
+            src="media/images/Hanan.jpg"
+            className="p-2"
+            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+          />
+          <h3 className="ms-5 ps-4 pt-2 fs-4">Hanan Delvi</h3>
+          <p className="text-center me-5 pe-4">CCO</p>
         </div>
         <div className="col-4">
-            <img src="media/images/Seema.jpg" className="p-2"style={{width: "80%", height: "80%", borderRadius: "50%"}}/>
-            <h3 className="ms-5 ps-4 pt-2 fs-4">Seema Patil</h3>
-            <p className="text-center me-5 pe-2">Director</p>
+          <img
+            src="media/images/Seema.jpg"
+            className="p-2"
+            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+          />
+          <h3 className="ms-5 ps-4 pt-2 fs-4">Seema Patil</h3>
+          <p className="text-center me-5 pe-2">Director</p>
         </div>
         <div className="col-4">
-            <img src="media/images/Karthik.jpg" className="p-2"style={{width: "80%", height: "80%", borderRadius: "50%"}}/>
-            <h3 className="ms-4 ps-3 pt-2 fs-4">Karthik Rangappa</h3>
-            <p className="text-center me-5 pe-2">Chief of Education</p>
+          <img
+            src="media/images/Karthik.jpg"
+            className="p-2"
+            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+          />
+          <h3 className="ms-4 ps-3 pt-2 fs-4">Karthik Rangappa</h3>
+          <p className="text-center me-5 pe-2">Chief of Education</p>
         </div>
       </div>
-       <div className="row p-5 ms-5">
+      <div className="row p-5 ms-5">
         <div className="col-4">
-            <img src="media/images/Austin.jpg" className="p-2" style={{width: "80%", height: "80%", borderRadius: "50%"}}/>
-            <h3 className="ms-4 ps-4 pt-2 fs-4">Austin Prakesh</h3>
-            <p className="text-center me-5 pe-5">Director Strategy</p>
+          <img
+            src="media/images/Austin.jpg"
+            className="p-2"
+            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+          />
+          <h3 className="ms-4 ps-4 pt-2 fs-4">Austin Prakesh</h3>
+          <p className="text-center me-5 pe-5">Director Strategy</p>
         </div>
-        <div className="col-4">
-            
-        </div>
-        <div className="col-4">
-            
-        </div>
+        <div className="col-4"></div>
+        <div className="col-4"></div>
       </div>
     </div>
   );
