@@ -1,0 +1,39 @@
+h3 {
+    color: #666666;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.service-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  font-size: 0.95rem;
+  border: 1px solid #dee2e6; 
+}
+
+.service-table th,
+.service-table td {
+  padding: 12px 16px;
+  border: none; 
+  text-align: left;
+  color: #666666;
+}
+
+.service-table thead {
+  background-color: #f8f9fa;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* .service-table tbody tr td:nth-child(even) {
+  background-color: #FBFBFB;
+} */
