@@ -1,0 +1,52 @@
+a h4:hover {
+    color: #397ED1;
+}
+
+.support-link a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.support-link a:hover {
+    color: #6B6B6B;
+    
+}
+
+section h2 {
+    color: #fff;
+}
+
+#supportHero {
+  background-color: #397ED1;
+  color: #fff;
+}
+
+#supportWrapper h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#supportWrapper a {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+#supportWrapper a:hover {
+  color: #D9E5F7;
+}
+
+.support-link {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.support-link:hover {
+  color: #D9E5F7;
+  border-bottom: 1px solid #D9E5F7;
+}
