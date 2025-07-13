@@ -1,0 +1,25 @@
+.product-image {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.product-image:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+a {
+  color: #397ed1;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  color: #424242;
+}
+
+.universe-logo {
+  width: 50%;
+}
