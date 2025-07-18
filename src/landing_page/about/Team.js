@@ -47,28 +47,28 @@ function Team() {
           <img
             src="media/images/Nikhil.jpg"
             className="p-2"
-            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+            style={{ width: "90%", height: "90%", borderRadius: "50%" }}
           />
-          <h3 className="ms-5 ps-4 pt-2 fs-4">Nikhil Kamath</h3>
+          <h3 className="ms-5 ps-2 pt-2 fs-4">Nikhil Kamath</h3>
           <p className="ms-5 ps-4">Co-founder & CFO</p>
         </div>
         <div className="col-4">
           <img
             src="media/images/Kailash.jpg"
             className="p-2"
-            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+            style={{ width: "90%", height: "90%", borderRadius: "50%" }}
           />
-          <h3 className="ms-5 ps-3 pt-2 fs-4">Dr. Kailash Nadh</h3>
+          <h3 className="ms-5 ps-2 pt-2 fs-4">Dr. Kailash Nadh</h3>
           <p className="text-center me-4">CTO</p>
         </div>
         <div className="col-4">
           <img
             src="media/images/Venu.jpg"
             className="p-2"
-            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+            style={{ width: "90%", height: "90%", borderRadius: "50%" }}
           />
           <h3 className="ms-5 ps-3 pt-2 fs-4">Venu Madhav</h3>
-          <p className="text-center me-5">COO</p>
+          <p className="text-center me-5 ps-4">COO</p>
         </div>
       </div>
       <div className="row p-5 ms-5">
@@ -76,28 +76,28 @@ function Team() {
           <img
             src="media/images/Hanan.jpg"
             className="p-2"
-            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+            style={{ width: "90%", height: "90%", borderRadius: "50%" }}
           />
           <h3 className="ms-5 ps-4 pt-2 fs-4">Hanan Delvi</h3>
-          <p className="text-center me-5 pe-4">CCO</p>
+          <p className="text-center me-4">CCO</p>
         </div>
         <div className="col-4">
           <img
             src="media/images/Seema.jpg"
             className="p-2"
-            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+            style={{ width: "90%", height: "90%", borderRadius: "50%" }}
           />
           <h3 className="ms-5 ps-4 pt-2 fs-4">Seema Patil</h3>
-          <p className="text-center me-5 pe-2">Director</p>
+          <p className="text-center me-4">Director</p>
         </div>
         <div className="col-4">
           <img
             src="media/images/Karthik.jpg"
             className="p-2"
-            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+            style={{ width: "90%", height: "90%", borderRadius: "50%" }}
           />
           <h3 className="ms-4 ps-3 pt-2 fs-4">Karthik Rangappa</h3>
-          <p className="text-center me-5 pe-2">Chief of Education</p>
+          <p className="text-center me-4 pe-1">Chief of Education</p>
         </div>
       </div>
       <div className="row p-5 ms-5">
@@ -105,10 +105,10 @@ function Team() {
           <img
             src="media/images/Austin.jpg"
             className="p-2"
-            style={{ width: "80%", height: "80%", borderRadius: "50%" }}
+            style={{ width: "90%", height: "90%", borderRadius: "50%" }}
           />
-          <h3 className="ms-4 ps-4 pt-2 fs-4">Austin Prakesh</h3>
-          <p className="text-center me-5 pe-5">Director Strategy</p>
+          <h3 className="ms-5  ps-2 pt-2 fs-4">Austin Prakesh</h3>
+          <p className="text-center me-5">Director Strategy</p>
         </div>
         <div className="col-4"></div>
         <div className="col-4"></div>
