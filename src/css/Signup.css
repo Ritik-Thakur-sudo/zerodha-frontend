@@ -1,0 +1,107 @@
+h2 {
+  color: #424242;
+}
+
+h3 {
+  color: black;
+}
+
+.phone-container {
+  width: 400px;
+}
+
+.get-otp-btn {
+  background-color: #397ed1;
+  width: 270px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.get-otp-btn:hover {
+  background-color: #222222;
+  color: #fff;
+}
+
+.explore {
+  width: 25%;
+  margin: 0 auto;
+  background-color: #397ed1;
+  color: #fff;
+  display: block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.explore:hover {
+  background-color: #222222;
+  color: #fff;
+}
+
+.step-number {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 500;
+  color: #555;
+  font-size: 16px;
+}
+
+.steps {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.dematPara {
+    font-size: 17px;
+}
+
+.account-box:hover {
+    border: 1px solid #397ED1;
+}
+
+.account-box {
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.account-box:hover {
+  border-color: #397ED1; 
+}
+
+
+.faq-item {
+  border-top: 1px solid #e0e0e0; /* gray line at top */
+  padding: 1rem 0;
+  transition: border-color 0.3s ease;
+  position: relative;
+}
+
+/* Blue animated underline at the top */
+.faq-item::before {
+  content: "";
+  position: absolute;
+  top: 0;                 /* 👈 key change */
+  left: 0;
+  height: 3px;
+  width: 5%;              /* default visible width */
+  background-color: #3f7ae0;
+  transition: width 0.3s ease;
+}
+
+/* On hover or active, expand width */
+.faq-item:hover::before,
+.faq-item.active::before {
+  width: 7%;
+}
+
