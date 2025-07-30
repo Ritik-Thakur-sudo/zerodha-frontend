@@ -1,31 +1,24 @@
-.price {
-    width: 50%;
-    /* border: 2px solid #000000; */
-    position: relative;
-    display: block;
+.pricing-box {
+  display: inline;
+  width: 20%;
+  gap: 1.25rem;
 }
 
-.pricingTag1 {
-    margin-top: 0.5rem;
-    font-size: 13px;
-    position: absolute;
-    left: 770px;
-    top: 2320px;
+.pricing-box:nth-child(1) p,
+.pricing-box:nth-child(2) p {
+  position: relative;
+  left: 6.25rem;
+  top: -3.125rem;
 }
 
-.pricingTag2 {
-    margin-top: 0.5rem;
-    font-size: 13px;
-    position: absolute;
-    left: 1000px;
-    top: 2322px;
-    margin-right: 50px;
+.pricing-box:nth-child(3) p {
+  position: relative;
+  left: 7.8125rem;
+  top: -3.125rem;
 }
 
-.pricingTag3 {
-    margin-top: 0.5rem;
-    font-size: 13px;
-    position: absolute;
-    left: 1252px;
-    top: 2320px;
+.pricing-box p {
+  font-size: 0.625rem;
+  margin: 0;
+  line-height: 1rem;
 }
