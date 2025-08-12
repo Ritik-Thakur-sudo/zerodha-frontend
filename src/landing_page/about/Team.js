@@ -11,6 +11,7 @@ function Team() {
           <img
             src="media/images/nithinKamath.jpg"
             style={{ width: "70%", height: "70%", borderRadius: "50%" }}
+            alt="Nithin Kamath"
           />
           <h3 style={{ paddingLeft: "80px", paddingTop: "10px" }}>
             Nithin Kamath
@@ -50,6 +51,7 @@ function Team() {
             src="media/images/Nikhil.jpg"
             className="p-2"
             style={{ width: "90%", height: "90%", borderRadius: "50%" }}
+            alt="Nikhil"
           />
           <h3 className="ms-5 ps-2 pt-2 fs-4">Nikhil Kamath</h3>
           <p className="ms-5 ps-4">Co-founder & CFO</p>
@@ -59,6 +61,7 @@ function Team() {
             src="media/images/Kailash.jpg"
             className="p-2"
             style={{ width: "90%", height: "90%", borderRadius: "50%" }}
+            alt="Kailash"
           />
           <h3 className="ms-5 ps-2 pt-2 fs-4">Dr. Kailash Nadh</h3>
           <p className="text-center me-4">CTO</p>
@@ -68,6 +71,7 @@ function Team() {
             src="media/images/Venu.jpg"
             className="p-2"
             style={{ width: "90%", height: "90%", borderRadius: "50%" }}
+            alt="Venu"
           />
           <h3 className="ms-5 ps-3 pt-2 fs-4">Venu Madhav</h3>
           <p className="text-center me-5 ps-4">COO</p>
@@ -79,6 +83,7 @@ function Team() {
             src="media/images/Hanan.jpg"
             className="p-2"
             style={{ width: "90%", height: "90%", borderRadius: "50%" }}
+            alt="Hanan"
           />
           <h3 className="ms-5 ps-4 pt-2 fs-4">Hanan Delvi</h3>
           <p className="text-center me-4">CCO</p>
@@ -88,6 +93,7 @@ function Team() {
             src="media/images/Seema.jpg"
             className="p-2"
             style={{ width: "90%", height: "90%", borderRadius: "50%" }}
+            alt="Seema"
           />
           <h3 className="ms-5 ps-4 pt-2 fs-4">Seema Patil</h3>
           <p className="text-center me-4">Director</p>
@@ -97,6 +103,7 @@ function Team() {
             src="media/images/Karthik.jpg"
             className="p-2"
             style={{ width: "90%", height: "90%", borderRadius: "50%" }}
+            alt="Karthik"
           />
           <h3 className="ms-4 ps-3 pt-2 fs-4">Karthik Rangappa</h3>
           <p className="text-center me-4 pe-1">Chief of Education</p>
@@ -108,6 +115,7 @@ function Team() {
             src="media/images/Austin.jpg"
             className="p-2"
             style={{ width: "90%", height: "90%", borderRadius: "50%" }}
+            alt="Austin"
           />
           <h3 className="ms-5  ps-2 pt-2 fs-4">Austin Prakesh</h3>
           <p className="text-center me-5">Director Strategy</p>

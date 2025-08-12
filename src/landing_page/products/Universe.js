@@ -11,7 +11,7 @@ function Universe() {
           partner platforms
         </p>
         <div className="col-4 p-5">
-          <img src="media/images/zerodhaFundhouse.png" className="universe-logo mb-3"/>
+          <img src="media/images/zerodhaFundhouse.png" className="universe-logo mb-3" alt="zerodha Fund house"/>
           <p className="text-small">
             <Link to={""} className="text-muted text-decoration-none">
               Our asset management venture that is creating simple and
@@ -20,7 +20,7 @@ function Universe() {
           </p>
         </div>
         <div className="col-4 p-5">
-          <img src="media/images/sensibullLogo.svg" className="universe-logo mb-4"/>
+          <img src="media/images/sensibullLogo.svg" className="universe-logo mb-4" alt="sensibull Logo"/>
           <p className="text-small">
             <Link to={""} className="text-muted text-decoration-none">
               Options trading platform that lets you create strategies, analyze
@@ -30,7 +30,7 @@ function Universe() {
           </p>
         </div>
         <div className="col-4 p-5">
-          <img src="media/images/tijori.svg" className="universe-logo mb-3"/>
+          <img src="media/images/tijori.svg" className="universe-logo mb-3" alt="tijori"/>
           <p className="text-small">
             <Link to={""} className="text-muted text-decoration-none">
               Investment research platform that offers detailed insights on
@@ -39,7 +39,7 @@ function Universe() {
           </p>
         </div>
         <div className="col-4 p-2">
-          <img src="media/images/streakLogo.png" className="universe-logo mb-3"/>
+          <img src="media/images/streakLogo.png" className="universe-logo mb-3" alt="streak Logo"/>
           <p className="text-small">
             <Link to={""} className="text-muted text-decoration-none">
               Systematic trading platform that allows you to create and backtest
@@ -48,7 +48,7 @@ function Universe() {
           </p>
         </div>
         <div className="col-4 p-2">
-          <img src="media/images/smallcaseLogo.png" className="universe-logo mb-4"/>
+          <img src="media/images/smallcaseLogo.png" className="universe-logo mb-4" alt="smallcase Logo"/>
           <p className="text-small">
             <Link to={""} className="text-muted text-decoration-none">
               Thematic investing platform that helps you invest in diversified
@@ -57,7 +57,7 @@ function Universe() {
           </p>
         </div>
         <div className="col-4 p-3">
-          <img src="media/images/dittoLogo.png" className="universe-logo mb-3"/>
+          <img src="media/images/dittoLogo.png" className="universe-logo mb-3" alt="ditto Logo"/>
           <p className="text-small">
             <Link to={""} className="text-muted text-decoration-none">
               Personalized advice on life and health insurance. No spam and no

@@ -13,7 +13,7 @@ function LeftSection({
     <div className="container">
       <div className="row p-5">
         <div className="col-4 mt-2 p-5">
-          <img src={imageURL} className="product-image" />
+          <img src={imageURL} className="product-image" alt="product-image"/>
         </div>
         <div className="col-3"></div>
         <div className="col-5 mt-5 p-5">
@@ -29,10 +29,10 @@ function LeftSection({
           </div>
           <div className="d-flex gap-5 mt-4">
             <Link to={"/googlePlay"}>
-              <img src="media/images/googlePlayBadge.svg" />
+              <img src="media/images/googlePlayBadge.svg" alt="Google Play Badge"/>
             </Link>
             <Link to={"/appStore"}>
-              <img src="media/images/appstoreBadge.svg" />
+              <img src="media/images/appstoreBadge.svg" alt="App store Badge"/>
             </Link>
           </div>
         </div>
