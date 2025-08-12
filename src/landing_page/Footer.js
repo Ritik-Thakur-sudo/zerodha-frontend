@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import "../css/Footer.css";
 
 function Footer() {
@@ -19,105 +20,105 @@ function Footer() {
           </div>
           <div className="col">
             <h3>Account</h3>
-            <a className=" text-decoration-none" href="#">
+            <Link to={""} className=" text-decoration-none">
               Open demat account
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none">
               Minor demat account
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none">
               NRI demat account
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Commodity
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Dematerialisation
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Fund transfer
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link className=" text-decoration-none" >
               MTF
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link className=" text-decoration-none" >
               Referral program
-            </a>
+            </Link>
           </div>
           <div className="col">
             <h3>Support</h3>
-            <a className=" text-decoration-none" href="#">
+            <Link to={""} className=" text-decoration-none" >
               Contact us
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Support portal
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               How to file a complaint?
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Status of your complaints
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none">
               Bulletin
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Circular
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Z-Connect blog
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Downloads
-            </a>
+            </Link>
           </div>
           <div className="col">
             <h3>Company</h3>
-            <a className=" text-decoration-none" href="#">
+            <Link to={""} className=" text-decoration-none" >
               About
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Philosophy
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Press & media
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Careers
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Zerodha Cares (CSR)
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Zerodha.tech
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none">
               Open source
-            </a>
+            </Link>
           </div>
           <div className="col">
             <h3>Quick Links</h3>
-            <a className=" text-decoration-none" href="#">
+            <Link to={""} className=" text-decoration-none">
               Upcoming IPOs
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Brokerage charges
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Market holidays
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link  className=" text-decoration-none" >
               Economic calendar
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Calculators
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none" >
               Markets
-            </a>
-            <a className=" text-decoration-none" href="#">
+            </Link>
+            <Link to={""} className=" text-decoration-none">
               Sectors
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
@@ -131,34 +132,34 @@ function Footer() {
             Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka,
             India. For any complaints pertaining to securities broking please
             write to{" "}
-            <a href="#" className="extra text-decoration-none mx-1">
+            <Link to={""} className="extra text-decoration-none mx-1">
               {" "}
               complaints@zerodha.com,
-            </a>{" "}
+            </Link>{" "}
             for DP related to{" "}
-            <a href="#" className="extra text-decoration-none mx-1">
+            <Link to={""} className="extra text-decoration-none mx-1">
               dp@zerodha.com.
-            </a>
+            </Link>
             Please ensure you carefully read the Risk Disclosure Document as
             prescribed by SEBI | ICF
           </p>
           <p>
             Procedure to file a complaint on
-            <a href="#" className="extra text-decoration-none mx-1">
+            <Link to={""} className="extra text-decoration-none mx-1">
               SEBI SCORES
-            </a>
+            </Link>
             : Register on SCORES portal. Mandatory details for filing complaints
             on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits:
             Effective Communication, Speedy redressal of the grievances
           </p>
 
-          <a href="#" className="text-decoration-none footer-a extra">
+          <Link to={""} className="text-decoration-none footer-a extra">
             Smart Online Dispute Resolution |{" "}
-          </a>
-          <a href="#" className="text-decoration-none extra">
+          </Link>
+          <Link to={""} className="text-decoration-none extra">
             {" "}
             Grievances Redressal Mechanism
-          </a>
+          </Link>
 
           <p className="mt-3">
             Investments in securities market are subject to market risks; read
@@ -189,37 +190,37 @@ function Footer() {
             bank account. As a business we don't give stock tips, and have not
             authorized anyone to trade on behalf of others. If you find anyone
             claiming to be part of Zerodha and offering such services, please
-            <a  href="#" className="extra text-decoration-none mx-1">create a ticket here.</a>
+            <Link to={""} className="extra text-decoration-none mx-1">create a ticket here.</Link>
           </p>
         </div>
         <div className="text-muted text-center mb-3 text-muted text-decoration-none">
-          <a className="mx-2  text-decoration-none" href="#">
+          <Link to={""} className="mx-2  text-decoration-none">
             NSE
-          </a>
-          <a className="mx-2  text-decoration-none" href="#">
+          </Link>
+          <Link to={""} className="mx-2  text-decoration-none" >
             BSE
-          </a>
-          <a className="mx-2  text-decoration-none" href="#">
+          </Link>
+          <Link to={""} className="mx-2  text-decoration-none">
             MCX
-          </a>
-          <a className="mx-2  text-decoration-none" href="#">
+          </Link>
+          <Link to={""} className="mx-2  text-decoration-none" >
             Terms & conditions
-          </a>
-          <a className="mx-2  text-decoration-none" href="#">
+          </Link>
+          <Link to={""} className="mx-2  text-decoration-none">
             Policies & procedures
-          </a>
-          <a className="mx-2  text-decoration-none" href="#">
+          </Link>
+          <Link to={""} className="mx-2  text-decoration-none">
             Privacy policy
-          </a>
-          <a className="mx-2  text-decoration-none" href="#">
+          </Link>
+          <Link to={""} className="mx-2  text-decoration-none">
             Disclosure
-          </a>
-          <a className="mx-2  text-decoration-none" href="#">
+          </Link>
+          <Link to={""} className="mx-2  text-decoration-none">
             For investor's attention
-          </a>
-          <a className="mx-2  text-decoration-none" href="#">
+          </Link>
+          <Link to={""} className="mx-2  text-decoration-none">
             Investor charter
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

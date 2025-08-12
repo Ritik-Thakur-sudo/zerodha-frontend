@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import Hero from "./Hero";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
@@ -49,7 +50,7 @@ function ProductPage() {
       />
       <p className="fs-4 text-center">
         Want to know more about our technology stack? Check out the
-        <a href="#" className="mx-1 text-decoration-none" >Zerodha.tech</a>blog.
+        <Link to={""} className="mx-1 text-decoration-none" >Zerodha.tech</Link>blog.
       </p>
       <Universe />
     </>

@@ -55,14 +55,14 @@ function Hero() {
           <h2 className="fs-4 mb-3 mt-3">Featured</h2>
           <ol>
             <li className="mb-3">
-              <a href="#" className="text-white text-decoration-none border-bottom">
+              <Link to={""} className="text-white text-decoration-none border-bottom">
                 Quarterly Settlement of Funds - July 2025
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-white text-decoration-none border-bottom">
+              <Link to={""} className="text-white text-decoration-none border-bottom">
                 Exclusion of F&O contracts on 8 securities from August 29, 2025
-              </a>
+              </Link>
             </li>
           </ol>
         </div>

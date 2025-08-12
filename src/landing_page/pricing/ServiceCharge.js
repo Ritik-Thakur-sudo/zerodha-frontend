@@ -5,9 +5,7 @@ function ServiceCharge() {
     <div className="container">
       <div className="row">
         <div className="col">
-          <h2 className="fs-3 mb-3">
-            Charges for account opening
-          </h2>
+          <h2 className="fs-3 mb-3">Charges for account opening</h2>
           <div className="table-responsive">
             <table className="table service-table">
               <thead>
@@ -19,19 +17,29 @@ function ServiceCharge() {
               <tbody>
                 <tr>
                   <td>Online account</td>
-                  <td><span class="badge text-bg-success fs-6 ps-3 pe-3">Free</span></td>
+                  <td>
+                    <span class="badge text-bg-success fs-6 ps-3 pe-3">
+                      Free
+                    </span>
+                  </td>
                 </tr>
                 <tr>
                   <td>Offline account</td>
-                  <td><span class="badge text-bg-success fs-6 ps-3 pe-3">Free</span></td>
+                  <td>
+                    <span class="badge text-bg-success fs-6 ps-3 pe-3">
+                      Free
+                    </span>
+                  </td>
                 </tr>
                 <tr>
                   <td>NRI account (offline only)</td>
                   <td>₹ 500</td>
                 </tr>
                 <tr>
-                    <td>Partnership, LLP, HUF, or Corporate accounts (offline only)</td>
-                    <td>₹ 500</td>
+                  <td>
+                    Partnership, LLP, HUF, or Corporate accounts (offline only)
+                  </td>
+                  <td>₹ 500</td>
                 </tr>
               </tbody>
             </table>

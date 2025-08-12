@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Hero from "./Hero";
 import OpenAccount from "../OpenAccount";
 import ChargesTabs from "./ChargesTabs";
@@ -11,9 +12,9 @@ function PricingPage() {
       <OpenAccount />
       <ChargesTabs />
       <p className="text-center fs-4">
-        <a className="text-decoration-none mx-1" href="#">
+        <Link to={""} className="text-decoration-none mx-1">
           Calculate your costs upfront
-        </a>
+        </Link>
         using our brokerage calculator
       </p>
       <ChargesExplainTab / >

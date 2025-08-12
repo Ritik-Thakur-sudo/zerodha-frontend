@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function Team() {
   return (
     <div className="container p-5">
@@ -28,17 +30,17 @@ function Team() {
           <p>Playing basketball is his zen.</p>
           <p>
             Connect on
-            <a href="/" className="text-decoration-none mx-1">
+            <Link to={""} className="text-decoration-none mx-1">
               Homepage
-            </a>
+            </Link>
             /
-            <a href="#" className="text-decoration-none mx-1">
+            <Link to={""} className="text-decoration-none mx-1">
               TradingQnA
-            </a>
+            </Link>
             /
-            <a href="#" className="text-decoration-none mx-1">
+            <Link to={""} className="text-decoration-none mx-1">
               Twitter
-            </a>
+            </Link>
           </p>
         </div>
       </div>

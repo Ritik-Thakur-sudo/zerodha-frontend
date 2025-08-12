@@ -30,10 +30,10 @@ p {
   margin-left: 35px;
 }
 
-a {
+Link {
   color: #424242;
 }
 
-a:hover {
+Link:hover {
   color: #397ED1;
 }

@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import "../../css/PricingPage.css";
 
 function ChargesExplainTab() {
@@ -131,16 +132,16 @@ function ChargesExplainTab() {
           <p>
             For BSDA demat account: Zero charges if the holding value is less
             than ₹4,00,000. To learn more about BSDA,
-            <a href="#" className="mx-1 text-decoration-none">
+            <Link to={""} className="mx-1 text-decoration-none">
               Click here
-            </a>
+            </Link>
           </p>
           <p>
             For non-BSDA demat accounts: ₹300/year + 18% GST charged quarterly
             (90 days). To learn more about AMC,
-            <a href="#" className="mx-1 text-decoration-none">
+            <Link to={""} className="mx-1 text-decoration-none">
               Click here
-            </a>
+            </Link>
           </p>
           <h3 className="fs-5">Corporate action order charges</h3>
           <p>
@@ -160,9 +161,9 @@ function ChargesExplainTab() {
           <p>
             Interest is levied at 18% a year or 0.05% per day on the debit
             balance in your trading account.
-            <a href="#" className="mx-1 text-decoration-none">
+            <Link to={""} className="mx-1 text-decoration-none">
               Learn more
-            </a>
+            </Link>
             .
           </p>
           <h3 className="fs-5">
