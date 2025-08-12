@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
       <div className="row p-5">
         <div className="col-6">
-          <img src="media/images/accountOpen.svg" alt="Open account image" />
+          <img src="media/images/accountOpen.svg" alt="Open account illustration" />
         </div>
         <div className="col-6 p-5">
           <h3 className="fs-4">Signup now</h3>
